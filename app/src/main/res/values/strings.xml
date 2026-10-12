@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">悦记</string>
+    <string name="widget_label">悦记 · 今日待办</string>
+    <string name="widget_description">显示今天的待办、完成进度和每周固定事项，可直接勾选完成。</string>
+
+    <!-- Notification channels -->
+    <string name="channel_todo">待办提醒</string>
+    <string name="channel_todo_desc">待办开始前 20 分钟与 10 分钟的提醒</string>
+    <string name="channel_weekly">每周固定提醒</string>
+    <string name="channel_weekly_desc">每周固定事项开始前的提醒</string>
+    <string name="channel_digest">每日待办汇总</string>
+    <string name="channel_digest_desc">在你设定的时间汇总推送今天的待办事项</string>
+
+    <!-- Notification bodies -->
+    <string name="notif_todo_body">%1$d 分钟后开始 · %2$s</string>
+    <string name="notif_weekly_body">%1$d 分钟后开始 · %2$s</string>
+    <string name="notif_digest_title">%1$s 待办汇总</string>
+    <string name="notif_digest_summary">%1$d 项待办 · %2$d 项每周事项</string>
+    <string name="notif_test_title">通知通道正常</string>
+    <string name="notif_test_body">这是悦记的测试通知，提醒功能已就绪。</string>
+
+    <string name="untitled_todo">未命名待办</string>
+    <string name="untitled_weekly">未命名事项</string>
+    <!-- Static mock shown in the launcher's widget picker (API 31+). -->
+    <string name="widget_preview_title">悦记 · 今日</string>
+    <string name="widget_preview_date">10月12日 周一</string>
+    <string name="widget_preview_time_1">19:51</string>
+    <string name="widget_preview_todo_1">项目周会</string>
+    <string name="widget_preview_time_2">22:21</string>
+    <string name="widget_preview_todo_2">提交设计稿</string>
+    <string name="widget_preview_weekly">↻  20:30  每周复盘</string>
+    <string name="widget_preview_footer">完成 1/3 · 备忘 3 篇</string>
+    <string name="widget_preview_open">打开</string>
+</resources>

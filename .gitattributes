@@ -1,0 +1,14 @@
+# Normalise line endings so the repo stays consistent across platforms.
+* text=auto eol=lf
+
+# Windows batch files must keep CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binaries — never touch these.
+*.png binary
+*.jpg binary
+*.webp binary
+*.jar binary
+*.jks binary
+*.apk binary
